@@ -4,6 +4,9 @@ __generated__
 web-build
 bare-apps
 
+# VS Code
+.vscode
+
 # Logs
 logs
 *.log
