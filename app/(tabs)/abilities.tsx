@@ -1,12 +1,13 @@
+import AbilitiesList from "@/components/pages/abilities/AbilitiesList";
 import { StatusBar } from "expo-status-bar";
-import { SafeAreaView, Text, StyleSheet, View } from "react-native";
+import { SafeAreaView, StyleSheet, View } from "react-native";
 
 export default function Abilities() {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar style="auto" />
       <View>
-        <Text style={styles.text}>Abilities Page!</Text>
+        <AbilitiesList />
       </View>
     </SafeAreaView>
   );
@@ -18,9 +19,5 @@ const styles = StyleSheet.create({
     margin: 32,
     gap: 16,
     overflow: "hidden",
-  },
-  text: {
-    fontSize: 25,
-    fontWeight: "500",
   },
 });

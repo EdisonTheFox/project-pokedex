@@ -11,12 +11,11 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? "light"].tint,
         headerShown: false,
       }}
     >
       <Tabs.Screen
-        name="pokemon"
+        name="index"
         options={{
           title: "Pokemon",
           tabBarIcon: ({ color, focused }) => (
