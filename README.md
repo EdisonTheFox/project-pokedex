@@ -9,13 +9,15 @@ For the longest time I have been searching for a good and functional Pokedex app
 ## Planned features
 
 - Comprehensive break down of each Pokemon
-  - filterable by game and generation
 - Comprehensive list of all moves in the games
 - Comprehensive list of all abilities in the games
-- Team Builder with type coverage calculations
+- Filters!
 - Living Dex tracker (Both normal and shiny variants)
+- Team Builder with type coverage calculations
 
 ## Tech Stack
 
 - TypeScript
 - React Native
+- Database utilising native SQLite
+- Data Sourced from [PokeAPI](https://pokeapi.co/) using the [pokenode-ts](https://pokenode-ts.vercel.app/) wrapper
